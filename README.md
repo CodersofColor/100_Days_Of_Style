@@ -10,11 +10,13 @@
 
 
 ## How To Share
-
+Please take a second and share with a friend or just post on your social accounts. Thanks!
 [Share on Twitter][shareTwitter] | [Share on LinkedIn][shareLinkedin] | [Share on Facebook][shareFacebook] | [MailToAfriend](mailto:friend@example.com?&subject=Learn-Html-and-CSS&body=https://github.com/CodersofColor/Zero-to-100-with-HTML-and-CSS )
 
+## Table of Contents
+
 | Session    | Topic              | Link                           |
-| ---------- | ------------------ | ------------------------------ |
+| :--------- | :----------------- | :----------------------------- |
 | 1 - Setup  | Setting up VScode  | [Setup](./01_Setup/index.html) |
 | 2 - Basics | Box Model & Basics | -                              |
 

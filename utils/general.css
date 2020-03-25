@@ -25,11 +25,23 @@ body {
   counter-reset: list-item;
 
 }
+.link-list{
+  position:fixed;
+  bottom:40px;
+  right:40px;
+}
+.link-list a{
+  display:inline-block;
+  padding:0 1rem;
+  text-transform: uppercase;
+  color:var(--bg-blk);
+}
+
 .content{
-  margin:6rem;
+  margin:4rem auto 6rem;
 }
 .logo-sm{
-  max-width:200px;
+  max-width:300px;
 }
 
 .lead{
@@ -40,8 +52,17 @@ body {
   transform: skewX(-5deg);
   background:var(--bg-blk);
   color:white;
+  transition: all ease-in-out .2s;
+}
+.lead:hover{
+  transform:scale(1.1) skewX(7deg);
+  background:var(--bg-gold-dark);
+}
+.lead:hover a {
+  color:var(--txt-blk);
 }
 .lead a {
+  font-weight: bold;
   color:white;
 }
 
@@ -59,9 +80,9 @@ body {
   list-style:none;
   background:var(--bg-blk);
   /* overflow: hidden; */
-  box-shadow: 
+  /* box-shadow: 
   0px 3px 3px rgba(0,0,0,0.2),
-  0px 0px 2px 9px rgba(0,0,0,0.12);
+  0px 0px 2px 9px rgba(0,0,0,0.12); */
 }
 .list:before{
   z-index: 10;
