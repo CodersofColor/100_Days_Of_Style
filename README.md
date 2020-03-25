@@ -5,17 +5,18 @@
 ![cover](utils/i/COC_cover.png "Coders of Color")
 
 </p>
+
 ## Welcome
 
 
 ## How To Share
 
-- [Share on Twitter][shareTwitter]
-- [Share on LinkedIn][shareLinkedin]
-- [Share on Facebook][shareFacebook]
-- [MailTo](mailto:friend@example.com?&subject=Learn-Html-and-CSS&body=https://github.com/CodersofColor/Zero-to-100-with-HTML-and-CSS )
+[Share on Twitter][shareTwitter] | [Share on LinkedIn][shareLinkedin] | [Share on Facebook][shareFacebook] | [MailToAfriend](mailto:friend@example.com?&subject=Learn-Html-and-CSS&body=https://github.com/CodersofColor/Zero-to-100-with-HTML-and-CSS )
 
-
+| Session    | Topic              | Link                           |
+| ---------- | ------------------ | ------------------------------ |
+| 1 - Setup  | Setting up VScode  | [Setup](./01_Setup/index.html) |
+| 2 - Basics | Box Model & Basics | -                              |
 
 
 [//]: <> (Share Links)

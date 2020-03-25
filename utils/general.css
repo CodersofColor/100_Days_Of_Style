@@ -1,0 +1,121 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/plugins/line-numbers/prism-line-numbers.min.css");
+
+:root{
+  --bg-main: #ffd73a;
+  --bg-white: #fff;
+  --bg-gray: #f4f4f4;
+  --bg-gold-dark:#d3ab22;
+  --bg-blk:#222;
+  --bdr-blk: #222;
+  --bdr-gray: #f1f1f1;
+  --color-red:#B42025;
+  --txt-blk: #111;
+}
+
+
+html {
+  height:100vh;
+  border:solid 20px var(--bdr-blk);
+}
+body {
+  
+  background:var(--bg-main);
+  counter-reset: list-item;
+
+}
+.content{
+  margin:6rem;
+}
+.logo-sm{
+  max-width:200px;
+}
+
+.lead{
+  max-width: 400px;
+  margin:0 auto;
+  padding:.5rem 0;
+  font-size:13px;
+  transform: skewX(-5deg);
+  background:var(--bg-blk);
+  color:white;
+}
+.lead a {
+  color:white;
+}
+
+.lead a:hover{
+  text-decoration: underline;
+}
+
+/* LIST STYLES */
+.list{
+  position: relative;
+  max-width:600px;
+  margin:3rem auto 0;
+  padding:0;
+  border-radius:3px;
+  list-style:none;
+  background:var(--bg-blk);
+  /* overflow: hidden; */
+  box-shadow: 
+  0px 3px 3px rgba(0,0,0,0.2),
+  0px 0px 2px 9px rgba(0,0,0,0.12);
+}
+.list:before{
+  z-index: 10;
+  position:absolute;
+  left:-77px;
+  top:35px;
+  content: 'sessions';
+  display:block;
+  padding:.5rem 1rem;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background:black;
+  color:white;
+}
+.list li {
+  position: relative;
+  padding-left:2rem;
+  border-bottom:solid 1px #333;
+  counter-increment: list-item;
+  overflow: hidden;
+  transition: background .2s ease-in-out;
+  color:white;
+}
+.list li:hover{
+  background:white;
+}
+.list li:hover a {
+  color:var(--txt-blk);
+}
+.list li:hover a:before{
+  background:var(--txt-blk);
+  color:var(--bg-main);
+}
+.list li:last-child{
+  border-bottom: none;
+}
+.list li a {
+  display:block;
+  padding:1.5rem 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color:white;
+  transition: all ease-in-out .2s;
+}
+.list li a:before{
+  content:counter(list-item);
+  position:absolute;
+  top:0;
+  left:0;
+  display:inline-block;
+  height:101%;
+  line-height: 2.5;
+  padding:1rem;
+  background:var(--txt-blk);
+  color:var(--bg-main);
+}
