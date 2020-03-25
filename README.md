@@ -2,7 +2,8 @@
 
 <p align="center">
 
-![cover](utils/i/COC_cover.png "Coders of Color")
+<!-- ![cover](utils/i/COC_cover.png "Coders of Color") -->
+<img width="830" height="320" src="./utils/i/COC_cover.png" />
 
 </p>
 
