@@ -111,6 +111,7 @@ body {
   background:white;
 }
 .list li:hover a {
+  padding-left:3rem;
   color:var(--txt-blk);
 }
 .list li:hover a:before{
@@ -125,6 +126,7 @@ body {
   padding:1.5rem 2rem;
   font-weight: bold;
   text-decoration: none;
+  text-transform: uppercase;
   color:white;
   transition: all ease-in-out .2s;
 }
