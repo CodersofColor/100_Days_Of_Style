@@ -15,17 +15,33 @@
 }
 
 
-html {
-  height:100vh;
+html.frame{
+  height:100%;
+  border-top:solid 20px var(--bdr-blk);
+  /* border-bottom:solid 20px var(--bdr-blk); */
 }
 
 body {  
   background:var(--bg-main);
   counter-reset: list-item;
 }
-body.frame{
-  height:100vh;
-  border:solid 20px var(--bdr-blk);
+.home-link{
+  position:fixed;
+  top:40px;
+  left:40px;
+  padding:.5rem 1rem;
+  border-radius: 5px;
+  font-size:12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background:var(--txt-blk);
+  color:var(--bg-white);
+  transition: all ease-in-out .2s;
+}
+.home-link:hover{
+
+  background:var(--bg-gold-dark);
+  color:var(--txt-blk);
 }
 .link-list{
   position:fixed;
