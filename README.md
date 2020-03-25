@@ -7,7 +7,7 @@
 </p>
 
 ## Welcome
-Hi everyone! Zero 2 One Hundred with HTML &amp; CSS is a project based series made to help you get familiar and get started with HTML &amp; CSS basics. Each project will teach how to work with both HTML &amp; CSS to create common and complex web UI elements. 
+Zero 2 One Hundred with HTML &amp; CSS is an ongoing project based series made to help you get familiar and get started with HTML &amp; CSS basics. Each project will teach how to work with both HTML &amp; CSS to create common and complex web UI elements. 
 
 ## WHY
 Learning can be hard and everyone learns in a different way. I made this just hoping that I could help a few people get over the initial feeling of being lost when starting out with code. Feel free to contact me if you need help or have questions on my personal and business social accounts. [Personal Twitter](https://twitter.com/cortneyisms) | [COC Twitter](https://twitter.com/codersofcolor_)
@@ -23,7 +23,7 @@ Please take a second and share with a friend or just post on your social account
 
   [Share on Twitter][shareTwitter] | [Share on LinkedIn][shareLinkedin] | [Share on Facebook][shareFacebook] | [MailToAfriend](mailto:friend@example.com?&subject=Learn-Html-and-CSS&body=https://github.com/CodersofColor/Zero-to-100-with-HTML-and-CSS )
 
-## Table of Contents
+## Course Contents
 
 | Session    | Topic              | Project Links                             |
 | :--------- | :----------------- | :---------------------------------------- |
