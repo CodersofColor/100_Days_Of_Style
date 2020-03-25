@@ -45,14 +45,27 @@ body {
 }
 .link-list{
   position:fixed;
-  bottom:40px;
-  right:40px;
+  top:100px;
+  left:40px;
 }
 .link-list a{
-  display:inline-block;
-  padding:0 1rem;
+  display:block;
+  margin:0;
+  padding:.25rem 0;
   text-transform: uppercase;
   color:var(--bg-blk);
+}
+.link-list p {
+  margin:0;
+  padding:.15rem 0;
+  font-size:12px;
+  font-weight:bolder;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 1;
+  text-decoration: underline;
+  /* background:black;
+  color:white */
 }
 
 .content{
