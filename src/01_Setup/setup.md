@@ -1,6 +1,8 @@
 
 # Session One - Setup
 
+## Download VScode
+ - Download [VScode](https://code.visualstudio.com/)
 ## VScode Plugins Needed
 1) [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 2) [Auto Rename](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) 
