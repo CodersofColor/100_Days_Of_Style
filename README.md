@@ -32,5 +32,5 @@ Please take a second and share with a friend or just post on your social account
 
 [//]: <> (Session Links)
 [01-sandbox]: ./src/01_Setup/index.html
-[02-sandbox]: ./src/02_Box_Model/_sandbox_/index.html
-[02-final]:  ./src/02_Box_Model/final-02/index.html
+[02-sandbox]: ./src/02_Box_Model/_sandbox_/
+[02-final]:  ./src/02_Box_Model/final-02/
