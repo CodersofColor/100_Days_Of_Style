@@ -25,11 +25,11 @@ Please take a second and share with a friend or just post on your social account
 
 ## Course Contents
 
-| Session    | Topic              | Project Links                             |
-| :--------- | :----------------- | :---------------------------------------- |
-| 1 - Setup  | Setting up VScode  | [Sandbox][01-sandbox]                     |
-| 2 - Basics | Box Model & Basics | [Sandbox][02-sandbox] / [Final][02-final] |
-
+| Session         | Topic              | Project Links                             |
+| :-------------- | :----------------- | :---------------------------------------- |
+| 1 - Setup       | Setting up VScode  | [Sandbox][01-sandbox]                     |
+| 2 - Basics      | Box Model & Basics | [Sandbox][02-sandbox] / [Final][02-final] |
+| 3 - Positioning | CSS Positions      | [Sandbox][03-sand] / [Final][03-final]    |
 
 [//]: <> (Share Links)
 [shareFacebook]: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2FCodersofColor%2FZero-to-100-with-HTML-and-CSS
@@ -48,4 +48,5 @@ Please take a second and share with a friend or just post on your social account
 [01-sandbox]: ./src/01_Setup/index.html
 [02-sandbox]: ./src/02_Box_Model/_sandbox_/
 [02-final]:  ./src/02_Box_Model/final-02/
+[03-sand]: ./src/03_positioning/_sandbox/
 [03-final]: ./src/03_positioning/final-03/
