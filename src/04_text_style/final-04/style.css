@@ -1,0 +1,42 @@
+body{
+  
+}
+
+.container {
+  max-width: 800px;
+  margin:4rem auto;
+  padding:2rem;
+  border:solid 1px #cecece;
+  clear:both;
+}
+
+.headline{
+  /* font-family: sans-serif; */
+  padding:10px 0;
+  /* text-decoration:overline; */
+  /* text-decoration: underline; */
+  /* text-decoration: line-through; */
+  /* text-decoration: line-through overline underline; */
+  text-transform: uppercase;
+  /* text-transform: capitalize; */
+
+}
+p {
+  font-family: "arial", "serif" ;
+  line-height: 1;
+}
+p::first-letter{
+
+}
+
+
+.creators{
+
+}
+.author{
+
+}
+
+.composer{
+
+}
