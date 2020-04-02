@@ -1,5 +1,16 @@
+html {
+  /* font-size:10px; */
+  /* setting the root font size to be a multiple of 10 */
+}
 body{
-  
+
+  /* font-style: normal italic oblique; */
+  /* font-weight: normal; */
+  /* font-variant: small-caps; */
+  /* font-size:100%; */
+  /* font:normal normal normal 100%/1  'arial'; */
+  line-height: 1;
+  /* color:blue; */
 }
 
 .container {
@@ -11,6 +22,7 @@ body{
 }
 
 .headline{
+  font-size:4rem;
   /* font-family: sans-serif; */
   padding:10px 0;
   /* text-decoration:overline; */
@@ -20,15 +32,21 @@ body{
   text-transform: uppercase;
   /* text-transform: capitalize; */
 
+  /* text-align: center; */
+
 }
 p {
   font-family: "arial", "serif" ;
-  line-height: 1;
+  /* line-height: 1; */
 }
 p::first-letter{
 
 }
 
+blockquote{
+  padding:20px;
+  border-left:solid 5px black;
+}
 
 .creators{
 
